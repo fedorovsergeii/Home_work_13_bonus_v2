@@ -13,7 +13,7 @@
     background: red;
     border: 1px solid black;
     offset-path: path("M 25,25 L 875,350 L 650,475 L 25,150 L 270,25 L 875,200 L 650,475 Z");
-    animation: move 10s linear infinite;
+    animation: move 20s linear infinite;
 }
 
 @keyframes move {
