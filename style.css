@@ -1,0 +1,27 @@
+.container {
+    width: 900px;
+    height: 500px;
+    margin: 0 auto;
+    background: lightgray;
+    border: 1px solid black;
+}
+
+.ball {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: red;
+    border: 1px solid black;
+    offset-path: path("M 25,25 L 875,350 L 650,475 L 25,150 L 270,25 L 875,200 L 650,475 Z");
+    animation: move 10s linear infinite;
+}
+
+@keyframes move {
+  0% {
+      offset-distance: 0;
+  }
+  100% {
+      offset-distance: 100%;
+  }
+
+}
